@@ -116,6 +116,12 @@ p {
   float: left;
 }
 
+.projectsummary {
+  color: white;
+  font-family: Inconsolata;
+  margin: 3em 0em 0em 0em;
+}
+
 footer {
   bottom: 0;
   position: fixed;
