@@ -1,35 +1,41 @@
-main {
-  clear: both;
-}
-
-body {
-  max-width: 100%;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 .2rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
 }
 
 p {
-  font-size: 5em;
-}
-
-.menuitem {
-  width: 25%;
-  float: left;
-}
-
-.menutext {
-  padding: 1em 0em 0em 4.9em;
-  font-size: 3em;
-  text-align: center;
+  font-size: 6rem;
 }
 
 .circular-shape {
-    width: 2%;
-    height: auto;
-    margin: 3em;
+  width: 10%;
+  float: left;
+  margin: 1em;
+  padding-right: 1.5em;
+}
+
+.menutext {
+  float: left;
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 
 .icones {
-  padding: 0em 1em 1em 1em;
-  display: block;
-  margin: 0 auto;
-  border-radius: 60%;
+  margin-top: 20rem;
+  margin-left: 2rem;
+  width: 45%
+}
+
+.icones2 {
+  margin-top: 2rem;
+  margin-left: 17rem;
+  width: 45%
 }
