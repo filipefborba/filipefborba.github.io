@@ -1,0 +1,27 @@
+.geral{
+	position: relative;
+    width: auto;
+    height: 1177px;
+    margin: 2px;
+    border: 2px solid black;
+
+}
+
+header{
+	position: relative;
+	border: 1px solid black;
+	width: auto;
+	height: 70px;
+	margin-bottom: 10px;
+	background-color: ;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+.back-arrow{
+	width: 4%;
+	height: auto;
+	display: inline;
+}

@@ -1,133 +1,35 @@
-div {
-    width: 1280px;
-    margin: auto;
-}
-
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-.menuitem {
-    width: 8em;
-    margin: 3em;
-    text-align: center;
-    float: left;
-}
-
-.social {
-  border: 2px;
-  width: 50px;
-  height: 50px;
-  padding: 25px;
-  float: right;
-}
-
-.backarrow {
-  height: 3em;
-  width: auto;
-  padding: 0em 0em 3em 0em;
-}
-
 main {
   clear: both;
 }
 
 body {
-  background: url("../Imagens/background.jpeg") no-repeat;
-  background-attachment: fixed;
   max-width: 100%;
 }
 
-.aboutbackground {
-  background: url("../Imagens/profileimage.jpeg") no-repeat top;
-  background-size: cover;
+p {
+  font-size: 5em;
 }
 
-.portrait {
+.menuitem {
+  width: 25%;
+  float: left;
+}
+
+.menutext {
+  padding: 1em 0em 0em 4.9em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.circular-shape {
+    width: 2%;
+    height: auto;
+    margin: 3em;
+}
+
+.icones {
   padding: 0em 1em 1em 1em;
   display: block;
   margin: 0 auto;
-  width: 320px;
-  height: auto;
   border-radius: 60%;
-}
-
-.portrait-text {
-  text-align: center;
-  font-size: 2em
-}
-
-p {
-  position: relative;
-  color: white;
-  font-family: Inconsolata;
-}
-
-.profiletext {
-  position: fixed;
-  margin: 4em 10em 4em 45em;
-  padding: 2em 2em 2em 2em;
-  background-color: #152233;
-  border-radius: 2em;
-}
-
-.profiletextname {
-  font-size: 1.5em;
-}
-
-.skillstable {
-  margin: 2em 15em 4em 15em;
-  padding: 1em 1em 1em 1em;
-  width: 50em;
-  height: auto;
-  background-color: #152233;
-  border-radius: 1em;
-}
-
-.projectimage {
-  width: 16.5%;
-  height: 150px;
-  padding: 1em 1em 0em 1em;
-}
-
-.projecttext {
-  width: 19.25%;
-  font-size: 1.5em;
-  padding: 1em 0em 1em 0em;
-  text-align: center;
-  float: left;
-}
-
-.projectdescription {
-  display: inline-block;
-  width: 15%;
-  padding: 1em 2em 0em 1.4em;
-  float: left;
-}
-
-.projectsummary {
-  color: white;
-  font-family: Inconsolata;
-  margin: 3em 0em 0em 0em;
-}
-
-footer {
-  bottom: 0;
-  position: fixed;
-  margin: 0 0 1em 0;
-}
-
-.bold {
-  font-weight: bold;
 }
