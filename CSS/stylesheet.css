@@ -1,41 +1,24 @@
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 0 .2rem;
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
+  box-shadow: 1px 1px 0px black;
+  height: 60px;
 }
 
-p {
-  font-size: 6rem;
-}
-
-.circular-shape {
-  width: 10%;
+.navbar {
   float: left;
-  margin: 1em;
-  padding-right: 1.5em;
 }
 
-.menutext {
-  float: left;
-  width: 60%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
+.circular-shape{
+  max-width: 10%;
+  height: auto;
+  width: auto;
 }
 
-.icones {
-  margin-top: 20rem;
-  margin-left: 2rem;
-  width: 45%
+.circular-shape-left {
+  margin-left: 1m;
 }
 
-.icones2 {
-  margin-top: 2rem;
-  margin-left: 17rem;
-  width: 45%
+.circular-shape-right {
+  float: right;
+  padding-right: 0px;
+  padding-left: 0px;
 }
