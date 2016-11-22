@@ -3,10 +3,6 @@ header {
   height: 60px;
 }
 
-.navbar {
-  float: left;
-}
-
 .circular-shape{
   max-width: 30px;
   height: auto;
