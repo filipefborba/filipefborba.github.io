@@ -1,6 +1,6 @@
 header {
   box-shadow: 1px 1px 0px black;
-  height: 60px;
+  height: 70px;
 }
 
 .circular-shape {
@@ -11,15 +11,24 @@ header {
 
 .menutext {
   font-size: 3rem;
-  text-align: center;
+  margin-left: 115px;
+  margin-top: -30px;
 }
 
 .circular-shape-left {
-  margin-left: 1m;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .circular-shape-right {
-  float: right;
-  padding-right: 0px;
-  padding-left: 0px;
+  margin-top: -95px;
+  margin-left: 325px;
+}
+
+.icon {
+  max-width: 180px;
+  height: auto;
+  width: auto;
+  margin-top: 70px;
+  margin-right: 5px;
 }
