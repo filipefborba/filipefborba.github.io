@@ -76,3 +76,19 @@ header {
   margin-top: 65px;
   margin-left: 150px;
 }
+
+.notification-text {
+  font-size: 2rem;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 60px;
+}
+
+.notification-icon {
+  max-width: 180px;
+  height: auto;
+  width: auto;
+  margin-top: 180px;
+  margin-left: 100px;
+  position: absolute;
+}
