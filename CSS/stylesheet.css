@@ -79,20 +79,79 @@ header {
 
 .add-guest {
   margin-left: 20px;
+  margin-top: 20px;
 }
 
-.notification-text {
+.confirmation-text {
   font-size: 2rem;
   position: absolute;
   margin-top: 140px;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
-.notification-icon {
-  max-width: 180px;
+.confirmation-icon {
+  max-width: 120px;
   height: auto;
   width: auto;
-  margin-top: 170px;
-  margin-left: 100px;
+  margin-top: 180px;
+  margin-left: 130px;
   position: absolute;
+}
+
+.warning-icon {
+  max-width: 80px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.warning-text {
+  font-size: 3rem;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 120px;
+}
+
+.send-icon {
+  max-width: 120px;
+  height: auto;
+  width: auto;
+  margin-top: 180px;
+  margin-left: 130px;
+  position: absolute;
+}
+
+.camera-icon {
+  max-width: 30px;
+  height: auto;
+  width: auto;
+  margin-top: -50px;
+  margin-left: 190px;
+  position: absolute;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: bold;
+  text-align: right;
+}
+
+td {
+  width: 22.5%;
+  text-align: center;
+}
+
+.history-table {
+  width: 90%;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 30px;
+  text-align: right;
 }
