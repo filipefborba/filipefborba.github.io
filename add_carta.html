@@ -9,46 +9,44 @@
     <link type="text/css" rel="stylesheet" href="CSS/bootstrap.css" />
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/add_carta.js"></script>
-
     <title>Aplicativo</title>
   </head>
-  <body>
+  <body class="fundo">
     <header>
       <a href="cartas.html"><img class="circular-shape circular-shape-left" src="img/left-arrow.png" /></a>
-      <p class="menutext" style="margin-left: 80px;">Registrar Carta</p>
-      <img class="circular-shape circular-shape-right" src="img/circular-shape.png" alt="" />
+      <p class="menutext" style="margin-left: 10px;">Registrar Carta</p>
     </header>
     <main>
       <div>
-        <form class="add-guest">
-          Apartamento:<br>
-          <select size="1" name="Apartamento">
-						<option selected value=""></option>
-						<option value="101">101</option>
-						<option value="102">102</option>
-            <option value="201">201</option>
-						<option value="202">202</option>
-          </select><br><br>
-          Morador:<br>
-          <select size="1" name="Morador">
-						<option selected value=""></option>
-						<option value="caue">Cauê Citrini</option>
-						<option value="martim">Martim Ferreira</option>
-          </select><br><br>
-          Tipo de Carta:<br>
-          <input type="text" name="tipo_de_carta" value="  "><br><br>
-          Código de Rastreamento:<br>
-          <input type="text" name="tipo_de_carta" value="  "><br><br>
-          
+        <form class="add-mail">
+          <input type="list" list="apartamentos" size="31" placeholder="Apartamento" name="apartamento-carta">
+						<datalist id="apartamentos">
+  						<option value="101">101</option>
+  						<option value="102">102</option>
+              <option value="201">201</option>
+  						<option value="202">202</option>
+            </datalist><br><br>
+          <input type="list" list="moradores" size="31" placeholder="Morador" name="morador-carta">
+						<datalist id="moradores">
+  						<option value="Cauê Citrini"></option>
+  						<option value="Martim Ferreira"></option>
+            </datalist><br><br>
+          <input type="list" list="tipo_de_carta" size="31" placeholder="Tipo de Carta">
+						<datalist id="tipo_de_carta">
+  						<option value="Encomenda"></option>
+  						<option value="Banco"></option>
+            </datalist><br><br>
+          <input type="text" name="tipo_de_carta" value="" placeholder="Código de Rastreamento"><br><br>
           <img class="camera-icon" src="img/camera.png" alt="" />
           <div style="width: 0; height: 0; overflow: hidden;">
-          <input type="file" accept="image/*" capture="camera" id="cameraInput" name="cameraInput">
+          <input class="camera" type="file" accept="image/*" capture="camera" id="cameraInput" name="cameraInput">
           </div>
+          <input type="text" name="obs" value="" placeholder="Observações" style="height: 80px"><br><br>
 				</form>
       </div>
       <div>
-				<p class="confirmation-text" style="margin-top: 60px; margin-left: 120px;">Registrar Carta</p>
-				<a href="cartas.html"><img class="send-icon" src="img/register.png" style="margin-top: 100px;" alt="" /></a>
+				<p class="confirmation-text" style="margin-top: 20px; margin-left: 120px;">Registrar Carta</p>
+				<a href="cartas.html"><img class="send-icon" src="img/register.png" style="margin-top: 70px;" alt="" /></a>
       </div>
     </main>
   </body>

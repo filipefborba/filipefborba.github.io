@@ -7,21 +7,20 @@
     <link type="text/css" rel="stylesheet" href="CSS/reset.css" />
 		<link type="text/css" rel="stylesheet" href="CSS/stylesheet.css" />
     <link type="text/css" rel="stylesheet" href="CSS/bootstrap.css" />
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <title>Aplicativo</title>
   </head>
-  <body>
+  <body class="fundo">
     <header>
       <a href="avisos.html"><img class="circular-shape circular-shape-left" src="img/left-arrow.png" /></a>
-      <p class="menutext" style="margin-left: 60px;">Novo Comunicado</p>
-      <img class="circular-shape circular-shape-right" src="img/circular-shape.png" alt="" />
+      <p class="menutext" style="margin-left: 20px;">Novo Comunicado</p>
     </header>
     <main>
       <div>
         <form class="add-guest">
-          Titulo:<br>
-          <input type="text" name="text-area_nome" value="  "><br>
-          Mensagem:<br>
-          <textarea rows="5" cols="40">Escreva uma mensagem para um morador ou ao condominio!</textarea><br>
+          <input type="text" name="destinatario_aviso" value="" placeholder="Destinatário do Aviso"><br><br>
+          <input type="text" name="assunto_aviso" value="" placeholder="Assunto do Aviso"><br><br>
+          <textarea placeholder="Escreva uma mensagem para um morador ou ao condominio!"></textarea><br>
 				</form>
       </div>
       <div>

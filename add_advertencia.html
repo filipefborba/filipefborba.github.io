@@ -7,34 +7,31 @@
     <link type="text/css" rel="stylesheet" href="CSS/reset.css" />
 		<link type="text/css" rel="stylesheet" href="CSS/stylesheet.css" />
     <link type="text/css" rel="stylesheet" href="CSS/bootstrap.css" />
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <title>Aplicativo</title>
   </head>
-  <body>
+  <body class="fundo">
     <header>
       <a href="avisos.html"><img class="circular-shape circular-shape-left" src="img/left-arrow.png" /></a>
-      <p class="menutext" style="margin-left: 65px;">Nova Advertência</p>
-      <img class="circular-shape circular-shape-right" src="img/circular-shape.png" alt="" />
+      <p class="menutext" style="margin-left: 20px;">Nova Advertência</p>
     </header>
     <main>
       <div>
         <form class="add-guest">
-          Regra:<br>
-          <select size="1" name="Regra">
-						<option selected value=""></option>
-						<option value="som">Som alto após 22h</option>
-						<option value="piscina">Convidados utilizando piscina</option>
-          </select><br><br>
-          Apartamento:<br>
-          <select size="1" name="Apartamento">
-						<option selected value=""></option>
-						<option value="101">101</option>
-						<option value="102">102</option>
-            <option value="201">201</option>
-						<option value="202">202</option>
-          </select><br><br>
-          Detalhes da Regra:<br>
-          <textarea rows="5" cols="40">Detalhes da regra blablalb</textarea><br><br>
-          <p>Ocorrência: 2/3</p>
+          <input type="list" list="apto_advertencia" placeholder="Selecione o Apartamento" />
+            <datalist id="apto_advertencia">
+              <option value="101"></option>
+              <option value="102"></option>
+              <option value="103"></option>
+            </datalist><br><br>
+          <input type="list" list="regra_advertencia" placeholder="Selecione a Regra Infringida" />
+            <datalist id="regra_advertencia">
+  						<option value="som">Som alto após 22h</option>
+  						<option value="piscina">Convidados utilizando piscina</option>
+            </datalist><br><br>
+            <p style="font-size: 2rem; display: inline-block;">Ocorrência: _/3</p>
+            <button style="margin-left: 110px;" disabled>Enviar Multa</button>
+          <textarea placeholder="Detalhe da Regra"></textarea><br><br>
 				</form>
       </div>
       <div>

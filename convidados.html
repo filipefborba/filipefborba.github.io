@@ -7,31 +7,41 @@
     <link type="text/css" rel="stylesheet" href="CSS/reset.css" />
 		<link type="text/css" rel="stylesheet" href="CSS/stylesheet.css" />
     <link type="text/css" rel="stylesheet" href="CSS/bootstrap.css" />
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/convidados.js"></script>
     <title>Aplicativo</title>
   </head>
-  <body>
+  <body class="fundo">
     <header>
       <a href="index.html"><img class="circular-shape circular-shape-left" src="img/left-arrow.png" /></a>
       <p class="menutext">Convidados</p>
-      <img class="circular-shape circular-shape-right" src="img/circular-shape.png" alt="" />
     </header>
     <main>
       <div>
-        <p class="apartment">Apartamento:</p>
-        <select class="select-apartment">
-          <option value="">Selecione o Apartamento</option>
-          <option value="101">101</option>
-          <option value="102">102</option>
-          <option value="103">103</option>
-        </select>
+        <input type="list" list="apto_convidado" placeholder="Selecione o Apartamento" />
+          <datalist id="apto_convidado">
+            <option value="101"></option>
+            <option value="102"></option>
+            <option value="103"></option>
+          </datalist><br><br>
       </div>
-      <div>
-        <p class="guests">Convidados:</p>
-        <select class="select-guests">
-          <option value="">Selecione o Convidado</option>
-          <option value="filipe">Filipe Borba</option>
-          <option value="gabriel">Gabriel Noal</option>
-        </select>
+
+      <div class="moradores">
+        <p>Moradores:</p>
+        <ul class="lista_de_moradores">
+        <!-- Vai a lista de moradores do apartamento -->
+        </ul>
+        <div class="ap_box">
+      </div>
+      </div>
+      <div class="guests">
+        <p>Convidados:</p>
+        <p class="name">Gabriel Noal</p>
+        <p class="status liberado">Liberado</p>
+      </div>
+      <div class="guests">
+        <p class="name">Cauê Citrini</p>
+        <p class="status notificar">Notificar</p>
       </div>
       <div>
         <a href="add_convidados.html"><img class="add-button" src="img/add-button.png" alt="" /></a>
