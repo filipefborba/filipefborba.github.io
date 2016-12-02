@@ -17,6 +17,17 @@ header {
   width: auto;
 }
 
+.menutext_inicial{
+  position: relative;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 10px;
+  
+  font-weight: bold;
+  height: auto;
+  width: auto;
+}
+
 .menutext {
   font-size: 3rem;
   text-align: center;
@@ -43,7 +54,7 @@ header {
   height: auto;
   width: auto;
   margin-top: 10px;
-  margin-left: 27.5%;
+  margin-left: 26%;
 }
 
 .add-button {

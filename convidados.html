@@ -18,12 +18,13 @@
     </header>
     <main>
       <div>
-        <input type="list" list="apto_convidado" placeholder="Selecione o Apartamento" />
-          <datalist id="apto_convidado">
-            <option value="101"></option>
-            <option value="102"></option>
-            <option value="103"></option>
-          </datalist><br><br>
+        <select class="select-apartment combobox">
+          <option value="aaa" selected="selected">Selecione o Apartamento</option>
+          <option value="101">101</option>
+          <option value="102">102</option>
+          <option value="103">103</option>
+        </select>
+
       </div>
 
       <div class="moradores">
@@ -36,12 +37,38 @@
       </div>
       <div class="guests">
         <p>Convidados:</p>
-        <p class="name">Gabriel Noal</p>
-        <p class="status liberado">Liberado</p>
       </div>
+
       <div class="guests">
-        <p class="name">Cauê Citrini</p>
-        <p class="status notificar">Notificar</p>
+        <p class="name" id="name1" style="display: none;">Barack O.</p>
+        <p class="status liberado" id="status1" style="display: none;">Liberado</p>
+      </div>
+
+      <div class="guests">
+        <p class="name" id="name2" style="display: none;">Cruela C.</p>
+        <p class="status notificar" id="status2" style="display: none;">Notificar</p>
+      </div>
+
+      <div class="guests">
+        <p class="name" id="name3" style="display: none;">Pedro C.</p>
+        <p class="status notificar" id="status3" style="display: none;">Notificar</p>
+      </div>
+
+      <div class="guests">
+        <p class="name" id="name4" style="display: none;">Carlos P.</p>
+        <p class="status notificar" id="status4" style="display: none;">Notificar</p>
+      </div>
+
+      <div class="guests">
+        <p class="name" id="name5" style="display: none;">Marcelo D2</p>
+        <p class="status liberado" id="status5" style="display: none;">Liberado</p>
+      </div>
+      
+      <div class="guests">
+        <p class="name" id="name6" style="display: none;">Snoop D.</p>
+        <p class="status liberado" id="status6" style="display: none;">Liberado</p>
+      </div>
+
       </div>
       <div>
         <a href="add_convidados.html"><img class="add-button" src="img/add-button.png" alt="" /></a>
