@@ -8,47 +8,47 @@
 		<link type="text/css" rel="stylesheet" href="CSS/stylesheet.css" />
     <link type="text/css" rel="stylesheet" href="CSS/bootstrap.css" />
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="js/filter-carta.js"></script>
+    <script type="text/javascript" src="js/filter-aviso.js"></script>
     <title>Aplicativo</title>
   </head>
   <body class="fundo">
     <header>
-      <a href="cartas.html"><img class="circular-shape circular-shape-left" src="img/left-arrow.png" /></a>
-      <p class="menutext" style="margin-left: 0px;">Histórico de Carta</p>
+      <a href="avisos.html"><img class="circular-shape circular-shape-left" src="img/left-arrow.png" /></a>
+      <p class="menutext" style="margin-left: 0px;">Histórico de Adv.</p>
       <img class="circular-shape circular-shape-right" onclick="openNav()" src="img/filter.png" />
     </header>
     <main>
       <div>
-        <table id="carta-table" class="history-table">
+        <table id="aviso-table" class="history-table">
           <tr style="margin-left: 1px;">
             <th><p style="text-align: center;">Data do Registro</p></th>
             <th><p style="text-align: center;">Apto</p></th>
-            <th><p style="text-align: center;">Remetente</p></th>
-            <th><p style="text-align: center;">Status</p></th>
+            <th><p style="text-align: center;">Regra</p></th>
+            <th><p style="text-align: center;">Tipo</p></th>
           </tr>
           <tr>
             <td>26/11/16</td>
             <td>102</td>
-            <td>Daniel Frida</td>
-            <td>Entregue</td>
+            <td>Som Alto</td>
+            <td>Multa</td>
           </tr>
           <tr>
             <td>26/11/16</td>
             <td>202</td>
-            <td>Banco Itaú</td>
-            <td>Pendente</td>
+            <td>Cachorro no Elevador</td>
+            <td>Ocorrência</td>
           </tr>
           <tr>
             <td>25/11/16</td>
             <td>102</td>
-            <td>Insper</td>
-            <td>Pendente</td>
+            <td>Som Alto</td>
+            <td>Ocorrência</td>
           </tr>
           <tr>
             <td>25/11/16</td>
             <td>201</td>
-            <td>Kléber Bambam</td>
-            <td>Entregue</td>
+            <td>Convidados na Piscina</td>
+            <td>Ocorrência</td>
           </tr>
         </table>
       </div>
@@ -56,8 +56,8 @@
         <p class="text">Filtrar por:</p>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#" onclick="all_table()">Todas</a>
-        <a href="#" onclick="filter_table()">Pendentes</a>
-        <a href="#" onclick="filter_table2()">Entregues</a>
+        <a href="#" onclick="filter_table()">Multas</a>
+        <a href="#" onclick="filter_table2()">Ocorrências</a>
       </div>
     </main>
   </body>

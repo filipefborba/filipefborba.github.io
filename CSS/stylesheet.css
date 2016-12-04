@@ -22,7 +22,7 @@ header {
   font-size: 4rem;
   text-align: center;
   padding-top: 10px;
-  
+
   font-weight: bold;
   height: auto;
   width: auto;
@@ -61,16 +61,17 @@ header {
   max-width: 40px;
   height: auto;
   width: auto;
-  position: absolute;
-  bottom: 25px;
-  right: 30px;
+  display: inline;
 }
 
 .add-button-text {
   font-size: 2rem;
-  position: absolute;
-  bottom: 20px;
-  right: 85px;
+  display: inline;
+  padding: 10px;
+}
+
+.add-div {
+  margin-top: 100px;
 }
 
 .apartment {
@@ -261,7 +262,7 @@ td {
 
 .history-table {
   width: 90%;
-  height: 150px;
+  height: auto;
   margin-left: 20px;
   margin-top: 30px;
 }
@@ -282,6 +283,12 @@ input[type="list"] {
   font-size: 2rem;
 }
 
+select {
+  height: 40px;
+  width: 100%;
+  font-size: 2rem;
+}
+
 input[type="number"] {
   height: 40px;
   width: 100%;
@@ -296,4 +303,49 @@ textarea {
   height: 200px;
   width: 100%;
   font-size: 2rem;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: lightgrey; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: black;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav .text {
+    position: absolute;
+    top: 20px;
+    font-size: 2rem;
+    margin-left: 25px;
+    color: #000000;
 }

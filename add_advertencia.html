@@ -18,18 +18,19 @@
     <main>
       <div>
         <form class="add-guest">
-          <input type="list" list="apto_advertencia" placeholder="Selecione o Apartamento" />
-            <datalist id="apto_advertencia">
-              <option value="101"></option>
-              <option value="102"></option>
-              <option value="103"></option>
-            </datalist><br><br>
-          <input type="list" list="regra_advertencia" placeholder="Selecione a Regra Infringida" />
-            <datalist id="regra_advertencia">
+          <select name="apto-advertencia">
+            <option value="" disabled selected>Apartamento</option>
+            <option value="101">101</option>
+            <option value="102">102</option>
+            <option value="201">201</option>
+            <option value="202">202</option>
+          </select><br><br>
+            <select name="regra_advertencia">
+              <option value="" disabled selected>Regra infringida</option>
   						<option value="som">Som alto após 22h</option>
   						<option value="piscina">Convidados utilizando piscina</option>
-            </datalist><br><br>
-            <p style="font-size: 2rem; display: inline-block;">Ocorrência: _/3</p>
+            </select><br><br>
+            <p id="ocorrencia" style="font-size: 2rem; display: inline-block;">Ocorrência: _/3</p>
             <button style="margin-left: 110px;" disabled>Enviar Multa</button>
           <textarea placeholder="Detalhe da Regra"></textarea><br><br>
 				</form>

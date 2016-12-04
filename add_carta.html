@@ -19,34 +19,30 @@
     <main>
       <div>
         <form class="add-mail">
-          <input type="list" list="apartamentos" size="31" placeholder="Apartamento" name="apartamento-carta">
-						<datalist id="apartamentos">
+						<select name="morador-carta">
+              <option value="" disabled selected>Apartamento</option>
   						<option value="101">101</option>
   						<option value="102">102</option>
               <option value="201">201</option>
   						<option value="202">202</option>
-            </datalist><br><br>
-          <input type="list" list="moradores" size="31" placeholder="Morador" name="morador-carta">
-						<datalist id="moradores">
-  						<option value="Cauê Citrini"></option>
-  						<option value="Martim Ferreira"></option>
-            </datalist><br><br>
-          <input type="list" list="tipo_de_carta" size="31" placeholder="Tipo de Carta">
-						<datalist id="tipo_de_carta">
-  						<option value="Encomenda"></option>
-  						<option value="Banco"></option>
-            </datalist><br><br>
-          <input type="text" name="tipo_de_carta" value="" placeholder="Código de Rastreamento"><br><br>
+            </select><br><br>
+						<select name="morador-carta">
+              <option value="" disabled selected>Morador</option>
+  						<option value="Cauê Citrini">Cauê Citrini</option>
+  						<option value="Martim Ferreira">Martin Ferreira</option>
+            </select><br><br>
+          <input type="text" placeholder="Tipo de Carta" name="tipo_de_carta" /><br><br>
+          <input type="text" name="codigo" placeholder="Código de Rastreamento"><br><br>
           <img class="camera-icon" src="img/camera.png" alt="" />
           <div style="width: 0; height: 0; overflow: hidden;">
           <input class="camera" type="file" accept="image/*" capture="camera" id="cameraInput" name="cameraInput">
           </div>
-          <input type="text" name="obs" value="" placeholder="Observações" style="height: 80px"><br><br>
+          <textarea type="text" name="obs" placeholder="Observações" style="height: 80px"></textarea><br><br>
 				</form>
       </div>
       <div>
-				<p class="confirmation-text" style="margin-top: 20px; margin-left: 120px;">Registrar Carta</p>
-				<a href="cartas.html"><img class="send-icon" src="img/register.png" style="margin-top: 70px;" alt="" /></a>
+				<p class="confirmation-text" style="margin-top: 10px; margin-left: 120px;">Registrar Carta</p>
+				<a href="cartas.html"><img class="send-icon" src="img/register.png" style="margin-top: 50px;" alt="" /></a>
       </div>
     </main>
   </body>
