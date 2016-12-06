@@ -13,7 +13,7 @@ $(document).ready(function() {
 		$('ul').empty();
 		$('ul').append('<li class="list_item">Marcelo H.</li>');
 		$('ul').append('<li class="list_item">Megan Fox</li>');
-		$('ul').append('<li class="list_item">Marcelo Jr. Fox</li>');
+		$('ul').append('<li class="list_item">Marcelo Fox Jr.</li>');
 
 		$('#name5').css('display','none');
 		$('#status5').css('display','none');
