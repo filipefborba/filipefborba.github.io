@@ -8,6 +8,7 @@
 		<link type="text/css" rel="stylesheet" href="CSS/stylesheet.css" />
     <link type="text/css" rel="stylesheet" href="CSS/bootstrap.css" />
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/multa.js"></script>
     <title>Aplicativo</title>
   </head>
   <body class="fundo">
@@ -25,19 +26,22 @@
             <option value="201">201</option>
             <option value="202">202</option>
           </select><br><br>
-            <select name="regra_advertencia">
+            <select name="regra_advertencia" id="regra_advertencia" onclick="renable()">
               <option value="" disabled selected>Regra infringida</option>
   						<option value="som">Som alto após 22h</option>
   						<option value="piscina">Convidados utilizando piscina</option>
             </select><br><br>
             <p id="ocorrencia" style="font-size: 2rem; display: inline-block;">Ocorrência: _/3</p>
-            <button style="margin-left: 110px;" disabled>Enviar Multa</button>
-          <textarea placeholder="Detalhe da Regra"></textarea><br><br>
+            <a href="avisos.html"><button type="button" style="margin-left: 110px;" id="multa_button" disabled>Enviar Multa</button></a>
+          <textarea placeholder="Detalhe da Regra" id="detalhe"></textarea><br><br>
 				</form>
       </div>
       <div>
 				<p class="confirmation-text" style="margin-top: 0px;">Enviar Advertência</p>
 				<a href="avisos.html"><img class="send-icon" src="img/mail-sent.png" style="margin-top: 30px;" alt="" /></a>
+      </div>
+      <div id="mySidenav" class="sidenav2">
+        <p>Multa enviada com sucesso!</p>
       </div>
     </main>
   </body>
