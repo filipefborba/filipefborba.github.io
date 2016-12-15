@@ -148,11 +148,6 @@ html, body, footer {
   margin-top: 30px;  /* Fix margin to align text and image */
 }
 
-.gaslogo-fixed {
-  max-width: 500px;
-  max-height: 500px;
-}
-
 .icons {
   max-width: 15%;
   max-height: auto;   /* Whatsapp and Gmail icon sizes */
